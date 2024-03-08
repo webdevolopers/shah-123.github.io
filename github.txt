@@ -1,0 +1,46 @@
+
+function yes(){
+    document.getElementById('name').style.backgroundColor = "gray";
+    document.getElementById('name').style.borderColor = "red";
+}
+
+function No(){
+    document.getElementById('name').style.backgroundColor = "";
+    document.getElementById('name').style.borderColor = "red";
+    
+}
+
+function hello(){
+    document.getElementById('pass').style.backgroundColor = "gray";
+    document.getElementById('pass').style.borderColor = "red";
+}
+
+function hi(){
+    document.getElementById('pass').style.backgroundColor = "";
+    document.getElementById('pass').style.borderColor = "red";
+}
+function good(){
+    let Name = document.getElementById('name').value;
+    let password = document.getElementById('pass').value;
+    if(Name == null || Name == ""){
+        alert("name cannot be null");
+        return false;
+    }
+    else if(password.length<6){
+        alert("password must be atleast 6 numbers");
+        return false;
+    }
+    
+}
+
+function Click(){
+    let a = "this is the last page of our website";
+    console.log(a);
+    
+}
+
+function two(){
+    let b  = "how was our website";
+    console.log(b);
+}
+
